@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contner {
+    width: 60%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.main-contner .header {
+    position: relative;
+}
+
+.main-contner .header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.main-contner .header .overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsla(178, 100%, 50%, 0.349);
+    width: 250px;
+    height: 250px;
+    display: none;
+    border-radius: .3em;
+}
+
+.main-contner .header .overlay img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 45px;
+    height: 45px;
+    display: none;
+}
+
+.main-contner h3 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-contner .pid-one {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.main-contner .blance {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-contner .blance .seticon-one {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: hsl(178, 100%, 50%);
+    ;
+}
+
+.main-contner .blance .seticon-one img {
+    width: 15px;
+    height: 15px;
+
+
+}
+
+.main-contner .blance .seticon-two {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contner .blance .seticon-two img {
+    width: 15px;
+    height: 15px;
+
+}
+
+.main-contner .header .line {
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.main-contner .header .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-contner .header .user p {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.main-contner .header .user span {
+    color: hsl(0, 0%, 100%);
+}
+
+.main-contner .header .user img {
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+}
+
+@media (min-width: 600px) {
+    .main-contner {
+        width: 20%;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 10px;
+    }
+
+}
