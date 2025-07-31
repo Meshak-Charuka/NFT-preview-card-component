@@ -1,4 +1,4 @@
-# Frontend Mentor - FAQ accordion solution
+# Frontend Mentor - NFT preview card component challenge solution
 
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
 
@@ -9,7 +9,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## 🔗 Links
 
 - Solution URL: [Solution URL](https://github.com/Meshak-Charuka/NFT-preview-card-component)
-- Live Site URL:[Live Site URL](hhttps://nft-preview-card-component-ten-omega.vercel.app/)
+- Live Site URL:[Live Site URL](https://nft-preview-card-component-ten-omega.vercel.app/)
 
 ## 🛠️ Built with
 
